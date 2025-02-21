@@ -1,0 +1,1 @@
+/Users/trevash/Desktop/Github\ /Rust1/rust-cybersecurity-roadmap/Projects/hello_cargo/target/debug/hello_cargo: /Users/trevash/Desktop/Github\ /Rust1/rust-cybersecurity-roadmap/Projects/hello_cargo/src/main.rs

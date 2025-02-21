@@ -1,0 +1,29 @@
+# 1.1 notes
+#The main function is the entry point of a Rust program. parameters go inside the parentheses. 
+the function body goes inside the curly braces.
+
+fn main() { 
+    println! ("Hello, world!"); 
+} 
+
+#Creating a project with cargo- 1.2 notes.
+# Cargo is Rust's package manager and build system. It helps you manage dependencies, build your project, and run tests.
+# To create a new project with cargo, run the following command in your terminal:
+###cargo new my_project
+# This will create a new directory called my_project with a basic Rust project structure.
+# The main.rs file is the entry point of your Rust program. It contains the main function, which is where your program starts executing.
+# The Cargo.toml file is the manifest file for your project. It contains metadata about your project, such as its name, version, and dependencies.
+# To build and run your project, navigate to the project directory and run the following command:
+###cargo build
+# This will compile your project and create an executable file in the target/debug directory.
+###./target/debug/my_project
+# Additionally to run your project quickly, you can use the following command:
+###cargo run
+# This will compile your project and run the main function.
+
+#We can create a project using cargo new.
+#We can build a project using cargo build.
+#We can build and run a project in one step using cargo run.
+#We can build a project without producing a binary to check for errors using cargo check.
+#Instead of saving the result of the build in the same directory as our code, Cargo stores it in the target/debug directory.
+## cargo build --release This command will create an executable in target/release instead of target/debug.
