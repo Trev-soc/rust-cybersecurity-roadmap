@@ -52,3 +52,7 @@ fn main() {
 #The loop keyword creates an infinite loop. 
 #break statement to exit the loop.
 #We switch from an expect call to a match expression to move from crashing on an error to handling the error. Remember that parse returns a Result type and Result is an enum that has the variants Ok and Err. We’re using a match expression here, as we did with the Ordering result of the cmp method.
+
+
+Chapter 3 Notes
+#variables, basic types, functions, comments, and control flow.
